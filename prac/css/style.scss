@@ -1,0 +1,203 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav{
+    width:100%;
+    height:10vh;
+    background-color: rgba($color: #2b2b2b, $alpha: 1.0);
+.nav-link{
+    width: 50%;
+    height:100%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+ 
+}
+.nav-link li a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+.nav-link li{
+    padding: 0, 2rem;
+    list-style: none;
+a:hover{
+    color:rgba($color: #00b7ff, $alpha: 1.0)
+}
+}
+}
+section{
+    width:100%;
+    height:90vh;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,100,1) 0%, rgba(0,255,160,1) 79%);
+-webkit-clip-path: polygon(25px 18px,921px 26px,930px 404px,316px 365px,17px 407px,22px 12px);
+.para{
+    position: absolute;
+    top:50%;
+    left:70%;
+    transform: translate(-50%, -50%);
+    
+}
+.para {color: rgba($color: #000000, $alpha: 1.0);
+font-weight: bold;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+cursor: pointer;
+h1{
+    text-transform: capitalize;
+    font-size: 2rem;
+}
+
+}
+.services{
+    margin-top:3rem;
+    width:100%;
+    text-align: center;
+    background-color: rgba($color: #c7c7c7, $alpha: 0.1);
+    h1{
+        margin-top:25px;
+    }
+
+.container{
+    width:100%;
+    height:100vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    justify-content: center;
+    margin-left:auto;
+    text-align: center;
+    padding:5rem;
+    grid-gap: 2rem;
+    
+   
+
+
+    .webservices{
+        background-color:rgba($color: #dddddd, $alpha: 1.0);
+        height:20rem;
+        transition: 1s ease-in-out;
+        border-radius: 10px;
+    }
+    .mobile-app{
+        background-color:rgba($color: #dddddd, $alpha: 1.0);
+        height:20rem;
+        transition: 1s ease-in-out;
+        border-radius: 10px;
+    }
+    .database{
+        background-color:rgba($color: #dddddd, $alpha: 1.0);
+        height:20rem;
+        transition: 1s ease-in-out;
+        border-radius: 10px;
+    }
+    .webservices:hover{
+        cursor: pointer;
+        background-color: rgb(0, 215, 223);
+        font-weight: bold;
+
+    }
+    .mobile-app:hover{
+        cursor: pointer;
+        background-color: rgb(0, 215, 223);
+        font-weight: bold;
+
+    }
+    .database:hover{
+        cursor: pointer;
+        background-color: rgb(0, 215, 223);
+        font-weight: bold;
+
+    }
+    .webservices i{
+        font-size: 5rem;
+        padding:1.5rem;
+        color:white;
+      margin-top:50px;
+}
+.mobile-app i{
+    font-size: 5rem;
+    padding:1.5rem;
+    color:white;
+    margin-top:50px;
+}
+.database i{
+    font-size: 5rem;
+    padding:1.5rem;
+    color:white;
+    margin-top:50px;
+}
+}
+}
+.imge{
+    background-image: url("../png/back.png");
+    background-size: cover;
+}
+.designation{
+    font-size:3rem;
+    text-align: center;
+    text-transform: capitalize;
+    display: block;
+    padding:5rem;
+    a{
+        text-decoration: none;
+        background-color: rgba($color: #00ffff, $alpha: 1.0);
+        padding:1.2rem;
+        border-radius: 5px;
+        border: 2px solid rgba($color: #00e1ff, $alpha: 1.0);
+        color:white;
+    }
+
+
+}
+.profile{
+    width:100%;
+    height:70vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 2rem;
+      padding:2rem;
+
+    .box1{
+        padding:3rem;
+        background-color: rgba($color: #00f8ae, $alpha: 1.0);
+        color:white;
+        text-align: center;
+        transition: 2s ease-in-out;
+        height:20rem;;
+         
+        
+        img{
+            width:10rem;
+            max-width: 100%;
+            border-radius: 50px;
+            border: 5px solid white;
+            transition: 1s ease-in;
+            padding:0.5rem;
+            
+        }
+        img:hover{
+            border-radius: 1px;
+        }
+       
+    }
+    .box1:hover{
+        box-shadow: 5px 5px 8px 5px #f54040;
+        background-color: rgba($color: #00fde8, $alpha: 1.0);
+    }
+}
+footer{
+    background-color:rgba($color: #333333, $alpha: 1.0);
+    height:30vh;
+    color:white;
+    text-align:center;
+    padding:2rem;
+    // display: grid;
+    // grid-template-columns: reapeat(auto-fit,250px,1fr);
+
+}
+
